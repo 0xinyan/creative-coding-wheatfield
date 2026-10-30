@@ -1,7 +1,3 @@
-// Wheat.js — wheatfield image deformation + Mouse Interaction.
-// Uses pixels from the ORIGINAL painting (no extra drawn wheat stalks or tiles).
-// Noise is NOT implemented here; setNoiseOffset(x, y) is an optional integration interface.
-
 class Wheat {
   constructor(painting) {
     this.painting = painting;
