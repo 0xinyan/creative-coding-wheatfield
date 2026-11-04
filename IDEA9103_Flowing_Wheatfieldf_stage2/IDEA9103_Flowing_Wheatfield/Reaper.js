@@ -1,4 +1,4 @@
-// AI assistance: ChatGPT helped extract painted body parts and animate joints.
+// AI assistance: ChatGPT helped extract painted body parts and help me fix the problems of animate.
 // Original image cutouts are moved with translate(), rotate() and lerp().
 class Reaper {
   constructor(painting) {
