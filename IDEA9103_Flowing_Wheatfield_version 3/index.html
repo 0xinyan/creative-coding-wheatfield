@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IDEA9103 — Flowing Wheatfield</title>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 20px 16px;
+      background: #181818;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #e8dfcb;
+      font-family: Arial, sans-serif;
+    }
+    .experience {
+      width: 800px;
+      max-width: 100%;
+    }
+    .controls {
+      padding: 0 0 14px;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .controls p { margin: 0; }
+    .controls .secondary { color: #bdb7aa; margin-top: 4px; }
+    kbd {
+      display: inline-block;
+      padding: 0 6px;
+      margin-right: 4px;
+      border: 1px solid #777062;
+      border-radius: 3px;
+      font-family: inherit;
+      color: #f1d88e;
+    }
+    .time-row {
+      display: flex;
+      min-height: 29px;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      margin-top: 8px;
+    }
+    #time-status { font-size: 11px; letter-spacing: 0.5px; color: #d8bd77; }
+    #sun-toggle {
+      border: 1px solid #777062;
+      border-radius: 4px;
+      background: transparent;
+      color: #f1d88e;
+      padding: 3px 9px;
+      font: inherit;
+      cursor: pointer;
+    }
+    canvas {
+      display: block;
+      max-width: 100%;
+      height: auto !important;
+    }
+  </style>
+</head>
+<body>
+  <main class="experience">
+    <section class="controls" aria-label="Interaction instructions">
+      <p><kbd>X</kbd> Pause / resume time · When paused, click the sun to switch daylight / sunset.</p>
+      <p class="secondary">Pausing holds the sun and time-of-day colours; natural sky motion and wheat movement continue.</p>
+      <p class="secondary">Move the mouse across the wheatfield: nearby wheat sways and follows your movement.</p>
+      <p class="secondary">Click the painted reaper: he bends forward and swings his sickle in a harvesting motion.</p>
+      <div class="time-row">
+        <p id="time-status" role="status" aria-live="polite">TIME RUNNING</p>
+        <button id="sun-toggle" type="button" hidden>Switch to sunset</button>
+      </div>
+    </section>
+    <div id="painting-stage"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+  <script src="Wheat.js"></script>
+  <script src="Sky.js"></script>
+  <script src="Reaper.js"></script>
+  <script src="Time.js"></script>
+  <script src="integration/noise-mechanic.js"></script>
+  <script src="integration/sky-background.js"></script>
+  <script src="integration/time-controls.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
+
