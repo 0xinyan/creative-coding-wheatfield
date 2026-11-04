@@ -1,4 +1,4 @@
-// AI assistance: developed with ChatGPT to sample the original sky as colour blocks.
+// AI assistance: Improved with ChatGPT to sample the original sky as colour blocks.
 // Each block stores a colour once; display() keeps the original mountain boundary.
 class Sky {
   constructor(painting) {
