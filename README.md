@@ -79,3 +79,7 @@ We used **ChatGPT/Codex** to assist with code drafting, debugging, preparing ima
 We checked JavaScript syntax, image loading, mouse and wind interaction, harvesting, time pause and resume, daylight and sunset switching, and click positions at different canvas sizes.
 
 The automatic time cycle lasts 840 active frames, or approximately 14 seconds at 60 fps. The canvas scales to the browser width while retaining its original 800 × 632 coordinate system. Harvesting plays a short gesture, after which the figure returns to its original pose and the wheatfield remains intact.
+
+
+
+## For more detailed information, please refer to the README file in the folder.
