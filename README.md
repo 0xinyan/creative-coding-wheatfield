@@ -60,17 +60,13 @@ The final page loads the Noise adapters from `integration/`. The two original No
 
 | Team member | Mechanic and contribution |
 | --- | --- |
-| **[Your name]** | **User Input and shared integration.** Developed the mouse-driven wheat, pixel sky and click-to-harvest interaction. Integrated the group modules and added the pause and sun controls, on-screen instructions and rendering optimisations. [Input contribution notes](./member-notes/input_note.md) |
+| **Zhexing Li** | **User Input and shared integration.** Developed the mouse-driven wheat, pixel sky and click-to-harvest interaction. Integrated the group modules and added the pause and sun controls, on-screen instructions and rendering optimisations. [Input contribution notes](./member-notes/input_note.md) |
 | **Tang Xinyue** | **Perlin Noise and Randomness.** Developed the natural wind in the wheatfield and the gradual brightness variations in the sky. [Noise contribution notes](./member-notes/Noise-README.md) |
 | **Xinyan LIN** | **Time-based.** Developed `Time_based03`, including the daylight-to-sunset transitions, the sun’s path, scene lighting and associated image layers. [Time contribution notes](./member-notes/Time-README.md) |
 
 ## AI acknowledgement
 
 We used **ChatGPT/Codex** to assist with code drafting, debugging, preparing image layers, integrating the mechanics, improving performance and writing documentation. Relevant code comments and member notes record this assistance.
-
-- In `Wheat.js` and `Sky.js`, AI-assisted code uses masks and image sampling to retain the painting’s texture. Wheat colours come from displaced source positions. Sky blocks stay in place and change colour.
-- In `Reaper.js`, AI assistance helped separate the upper-body layers and refine their rotations. A patch sampled from nearby wheat covers the original upper-body position during the gesture.
-- In `sketch.js` and `integration/`, AI assistance helped connect the shared drawing loop, combine wind and mouse offsets, and add time controls. The independent clock lets the viewer pause the lighting cycle while the other mechanics continue.
 
 ## External references
 
