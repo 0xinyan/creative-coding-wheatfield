@@ -60,9 +60,9 @@ The final page loads the Noise adapters from `integration/`. The two original No
 
 | Team member | Mechanic and contribution |
 | --- | --- |
-| **Zhexing Li** | **User Input and shared integration.** Developed the mouse-driven wheat, pixel sky and click-to-harvest interaction. Integrated the group modules and added the pause and sun controls, on-screen instructions and rendering optimisations. [Input contribution notes](./member-notes/input_note.md) |
-| **Tang Xinyue** | **Perlin Noise and Randomness.** Developed the natural wind in the wheatfield and the gradual brightness variations in the sky. [Noise contribution notes](./member-notes/Noise-README.md) |
-| **Xinyan LIN** | **Time-based.** Developed `Time_based03`, including the daylight-to-sunset transitions, the sun’s path, scene lighting and associated image layers. [Time contribution notes](./member-notes/Time-README.md) |
+| **Zhexing Li** | **User Input and shared integration.** Developed the mouse-driven wheat, pixel sky and click-to-harvest interaction. Integrated the group modules and added the pause and sun controls, on-screen instructions and rendering optimisations.  |
+| **Tang Xinyue** | **Perlin Noise and Randomness.** Developed the natural wind in the wheatfield and the gradual brightness variations in the sky.  |
+| **Xinyan LIN** | **Time-based.** Developed `Time_based03`, including the daylight-to-sunset transitions, the sun’s path, scene lighting and associated image layers.  |
 
 ## AI acknowledgement
 
