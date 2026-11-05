@@ -96,10 +96,3 @@ Checks covered JavaScript syntax, script/assets loading, combined wind and mouse
 
 The time cycle is 840 active frames, approximately 14 seconds at 60 fps. The canvas retains its 800 x 632 internal coordinates and scales through CSS; masks fit this source image. Tree edges and the harvesting background patch may remain visible, and harvesting animates a gesture without permanently removing wheat.
 
-## References and AI acknowledgement
-
-- Vincent van Gogh, *Wheatfield with a Reaper* (1889). [Artwork reference: Van Gogh Museum](https://www.vangoghmuseum.nl/en/collection/s0049V1962). The project image was supplied through the group's shared assets.
-- IDEA9103 lecture/tutorial materials, including classes and arrays, Perlin noise, easing and transformations.
-- p5.js 1.9.4, loaded through the CDN link in `index.html`.
-
-ChatGPT/Codex assisted with code development and explanation, image-layer preparation, integration, debugging, performance optimisation, browser checks and documentation. File-level comments and member notes record this assistance alongside individual contributions.
